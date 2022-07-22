@@ -62,3 +62,4 @@ test('gets a description of the enemy',()=>{
 Enemy.prototype.getDescription=function(){
   return `A ${this.name} holding a ${this.weapon} has appeared!`;
 };
+
